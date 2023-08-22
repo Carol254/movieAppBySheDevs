@@ -6,17 +6,20 @@
     background-color: brown;
 }
 .options{
-    display:grid;
+    display:flex;
     align-items: center;
     justify-content: center;
 }
 .options select {
+    margin-top: 10px;
     appearance: none;
-    -moz-appearance: none;
-    -webkit-appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+    text-align: center;
     border: 0;
     outline: 0;
-    padding: 5px 15px;
+    padding: 20px 0px;
+    width: 260px;
     font-size: 14px;
     border-radius: 5px;
     background-color: lightcoral;
