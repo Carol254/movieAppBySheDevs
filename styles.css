@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.parent{
+    display:grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: brown;
+    justify-content: center;
+    align-content: center;
+    height: 100vh;
+    gap:10px;
+  
+}
+.child{
+    background-color: lightcoral;
+    color: black;
+    padding: 20px 0px;
+    border-radius: 8px;
+    text-align:center;
+}
+.movieTitle{
+    grid-area: 1/1/1/span 4;
+    width: 260px;
+    text-align: center;
+}
