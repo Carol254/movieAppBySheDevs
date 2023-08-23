@@ -46,3 +46,6 @@
     width: 260px;
     text-align: center;
 }
+.key{
+    display: flex;
+}
