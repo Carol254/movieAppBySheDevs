@@ -3,7 +3,7 @@
     padding: 0;
 }
 .main{
-    background-color: brown;
+    background-color: #D76E6E;
 }
 .options{
     display:flex;
@@ -27,7 +27,7 @@
 .parent{
     display:grid;
     grid-template-columns: auto auto auto auto;
-    background-color: brown;
+    background-color: #D76E6E;
     justify-content: center;
     align-content: center;
     height: 100vh;
@@ -35,7 +35,7 @@
   
 }
 .child{
-    background-color: lightcoral;
+    background-color: #ad3c3c;
     color: black;
     padding: 20px 0px;
     border-radius: 8px;
