@@ -25,7 +25,7 @@
   }
 .parent{
     display:grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: auto auto auto auto auto;
     background-color: #D76E6E;
     justify-content: center;
     align-content: center;
@@ -77,4 +77,13 @@
     text-align:center;
     width: 40px; 
     height: 40px; 
+}
+
+@media screen and (max-width:768px){
+    .options{
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+  
 }
