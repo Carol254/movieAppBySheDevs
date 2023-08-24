@@ -8,6 +8,7 @@
 .options{
     display:flex;
     justify-content: space-evenly;
+    align-items: center;
 }
 .options select {
     margin-top: 10px;
