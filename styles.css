@@ -51,3 +51,28 @@
     justify-content: space-evenly;
     column-gap:3px;
 }
+.notOccupied{
+    background-color: #ad3c3c;
+    padding: 8px; 
+    border-radius: 8px; 
+    width: 20px; 
+    height: 20px; 
+    margin-right: 2px;
+}
+.selected{
+    background-color: #FFAAAA;
+    padding: 8px; 
+    border-radius: 8px; 
+    width: 20px; 
+    height: 20px; 
+    margin-right: 2px;
+}
+.occupied{
+    background-color:#7F1515;
+    padding: 8px; 
+    border-radius: 8px; 
+    width: 20px; 
+    height: 20px; 
+    margin-right: 2px; 
+    margin-left: 2px;
+}
