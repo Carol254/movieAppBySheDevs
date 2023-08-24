@@ -1,4 +1,4 @@
-const seats = document.querySelectorAll(".child");
+const seats = document.querySelectorAll(".child:not(.occupied)");
 const numberOfSeats = document.getElementById("numberofSeats");
 
 seats.forEach(seat =>{
