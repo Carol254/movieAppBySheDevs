@@ -7,8 +7,7 @@
 }
 .options{
     display:flex;
-    align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 .options select {
     margin-top: 10px;
@@ -48,6 +47,5 @@
 }
 .key{
     display: flex;
-    margin-left: auto;
-    align-items: center;
+    
 }
