@@ -15,8 +15,18 @@ let ticketTotalPrice = +movie.value;
 //     console.log('seat selected');
 // }
 
+function updateSelectedCount(){
+    const selectedSeats = document.querySelectorAll('.parent .child.selected');
+    const selectedSeatCount = selectedSeats.length;
+
+    numberOfSeats.innerText = selectedSeatCount;
+    amount.innerText = selectedSeatCount * ticketTotalPrice;
+}
+
 container.addEventListener('click', e =>{
    if(e.target.classList.contains('child') && !e.target.classList.contains('occupied')) {
     e.target.classList.toggle('selected');
    }
+
+   updateSelectedCount();
 })
