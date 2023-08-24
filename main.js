@@ -30,3 +30,8 @@ container.addEventListener('click', e =>{
 
    updateSelectedCount();
 })
+
+movie.addEventListener('change',e =>{
+    ticketTotalPrice = +e.target.value;
+    updateSelectedCount();
+})
