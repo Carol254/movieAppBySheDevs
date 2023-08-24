@@ -5,6 +5,6 @@ seats.forEach(seat =>{
 })
 
 function selectSeat(){
-    window.alert('you have selected a seat');
+    alert('you have selected a seat');
     console.log('seat selected');
 }
