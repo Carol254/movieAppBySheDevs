@@ -1,4 +1,5 @@
 const seats = document.querySelectorAll(".child");
+const numberOfSeats = document.getElementById("numberofSeats");
 
 seats.forEach(seat =>{
     seat.addEventListener("click",selectSeat);
