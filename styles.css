@@ -36,15 +36,13 @@
 .child{
     background-color: #ad3c3c;
     color: black;
-    padding: 20px 0px;
+    padding: 8px;
     border-radius: 8px;
     text-align:center;
+    width: 40px; 
+    height: 40px; 
 }
-.movieTitle{
-    grid-area: 1/1/1/span 4;
-    width: 260px;
-    text-align: center;
-}
+
 .key{
     display: flex;
     align-items: center;
