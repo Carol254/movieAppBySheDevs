@@ -48,6 +48,6 @@
 .key{
     display: flex;
     align-items: center;
-    justify-content: space-around !important;
-    /* column-gap:3px; */
+    justify-content: space-evenly;
+    column-gap:3px;
 }
