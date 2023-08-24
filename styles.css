@@ -6,8 +6,8 @@
     background-color: #D76E6E;
 }
 .options{
-    display:flex;
-    justify-content: space-around;
+    display: flex;
+    justify-content: space-evenly;
     align-items: center;
 }
 .options select {
@@ -48,4 +48,5 @@
 .key{
     display: flex;
     align-items: center;
+    justify-content: center;
 }
